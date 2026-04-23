@@ -102,7 +102,7 @@ export default function Home() {
             <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full border-2 border-[#00A3FF] p-1 flex items-center justify-center bg-[#050505] shadow-[0_0_20px_rgba(0,163,255,0.5)] md:shadow-[0_0_30px_rgba(0,163,255,0.5)] z-10">
               <div className="w-full h-full rounded-full overflow-hidden bg-gradient-to-tr from-[#111] to-[#222]">
                 <Image 
-                  src="https://picsum.photos/seed/jaov1ctoria/400/400" 
+                  src="/avatar.jpg" 
                   alt="JaoV1ctor"
                   width={128}
                   height={128}
