@@ -226,7 +226,7 @@ export default function Home() {
                 {new Date().getFullYear()} © JaoV1ctor.
               </span>
               <span className="text-zinc-600 text-[8px] sm:text-[9px] font-bold tracking-[0.2em] uppercase">
-                // Engineered with AI
+                {"// Engineered with AI"}
               </span>
             </div>
           </motion.div>
