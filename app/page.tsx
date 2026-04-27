@@ -45,7 +45,7 @@ const links = [
   },
   {
     title: 'O Manual da Eficiência Digital (PDF)',
-    url: '#', // TODO: Cole aqui o link do Google Drive do PDF
+    url: 'https://drive.google.com/file/d/1p0ASHk3sS0lp6aA8gnIE8t-3fja6ZEqN/view?usp=sharing',
     icon: FileText,
     highlight: false,
     color: 'hover:text-emerald-400',
