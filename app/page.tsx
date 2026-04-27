@@ -10,7 +10,8 @@ import {
   ArrowUpRight, 
   Github, 
   Linkedin, 
-  Mail 
+  Mail,
+  FileText
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -41,6 +42,15 @@ const links = [
     color: 'hover:text-indigo-400',
     borderColor: 'hover:border-indigo-400/50',
     bgHover: 'hover:bg-indigo-400/10'
+  },
+  {
+    title: 'O Manual da Eficiência Digital (PDF)',
+    url: '#', // TODO: Cole aqui o link do Google Drive do PDF
+    icon: FileText,
+    highlight: false,
+    color: 'hover:text-emerald-400',
+    borderColor: 'hover:border-emerald-400/50',
+    bgHover: 'hover:bg-emerald-400/10'
   },
   {
     title: 'Agendar Consultoria Gratuita',
