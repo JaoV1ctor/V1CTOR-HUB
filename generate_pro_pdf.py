@@ -11,7 +11,7 @@ qr = qrcode.QRCode(
     box_size=10,
     border=4,
 )
-drive_link = "https://drive.google.com/file/d/1DsGuaP0h0r9S8XKuTOk7maKhanmvTnQm/view?usp=sharing"
+drive_link = "https://jaov1ctors-portifolio.vercel.app/"
 qr.add_data(drive_link)
 qr.make(fit=True)
 
@@ -285,13 +285,13 @@ html_content = f"""
         <div style="margin: 40px auto; width: 100px; height: 3px; background: #00A3FF;"></div>
         
         <div class="qr-section">
-            <h3 style="margin-top: 0; margin-bottom: 25px; color: #FFFFFF; font-size: 14pt;">ACESSE O ARQUIVO NA NUVEM</h3>
+            <h3 style="margin-top: 0; margin-bottom: 25px; color: #FFFFFF; font-size: 14pt;">CONFIRA MEUS PROJETOS</h3>
             <p style="font-size: 11pt; color: #888; max-width: 400px; margin-bottom: 25px;">
-                Guarde este material. Escaneie o QR Code abaixo para acessar o PDF original hospedado em nosso Google Drive seguro:
+                Gostou deste material? Escaneie o QR Code abaixo para conhecer meu portfólio completo e ver como posso transformar sua empresa com tecnologia:
             </p>
             <img src="{qr_data_uri}" alt="QR Code" class="qr-image" />
             <p style="font-size: 9pt; color: #666; word-break: break-all; max-width: 300px;">
-                Link direto:<br> {drive_link}
+                Link direto para o portfólio:<br> {drive_link}
             </p>
         </div>
         
