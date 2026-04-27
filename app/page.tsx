@@ -99,14 +99,14 @@ export default function Home() {
             <div className="absolute -inset-3 rounded-full border border-[#00A3FF]/40 animate-[pulse_2s_ease-in-out_infinite] shadow-[0_0_15px_rgba(0,163,255,0.3)] md:shadow-[0_0_20px_rgba(0,163,255,0.3)] pointer-events-none" />
             <div className="absolute -inset-1.5 rounded-full border border-[#00A3FF]/60 animate-[pulse_3s_ease-in-out_infinite] pointer-events-none" />
             
-            <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full border-2 border-[#00A3FF] p-1 flex items-center justify-center bg-[#050505] shadow-[0_0_20px_rgba(0,163,255,0.5)] md:shadow-[0_0_30px_rgba(0,163,255,0.5)] z-10">
-              <div className="w-full h-full rounded-full overflow-hidden bg-gradient-to-tr from-[#111] to-[#222] flex items-center justify-center">
+            <div className="relative w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full border-2 border-[#00A3FF] p-0.5 flex items-center justify-center bg-transparent shadow-[0_0_20px_rgba(0,163,255,0.4)] md:shadow-[0_0_40px_rgba(0,163,255,0.4)] z-10">
+              <div className="w-full h-full rounded-full overflow-hidden flex items-center justify-center">
                 <Image 
                   src="/logo.png" 
                   alt="Logo JaoV1ctor"
-                  width={128}
-                  height={128}
-                  className="w-[85%] h-[85%] object-contain transition-transform duration-700 group-hover:scale-110"
+                  width={256}
+                  height={256}
+                  className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110"
                   referrerPolicy="no-referrer"
                 />
               </div>
